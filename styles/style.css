@@ -1,0 +1,53 @@
+/* COMON SHARED STYLES */
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.text-primary {
+    color: #FD6E0A;
+}
+
+.btn-primary {
+    border-radius: 5px;
+    background-color: #FD6E0A;
+    border: 0;
+    color: #FFF;
+    width: 150px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: normal;
+    height: 60px;
+    flex-shrink: 0;
+    padding: 18px 35px 19px 36px;
+}
+
+/* nav related style */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-title {
+    color: #181818;
+
+    font-size: 45px;
+
+    font-weight: 800;
+
+}
+
+nav>ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin: 50px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #474747;
+}
