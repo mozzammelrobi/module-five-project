@@ -197,46 +197,93 @@ line-height: 30px;
     font-weight: 700;
 }
 
-.resume-container{
+.resume-container {
     display: flex;
     gap: 50px;
 }
 
-.resume-item-title{
+.resume-item-title {
     color: #474747;
- 
-font-size: 25px;
- 
-font-weight: 700;
- 
+
+    font-size: 25px;
+
+    font-weight: 700;
+
 }
-.resuem-item-institute{
-    color:  #757575;
- 
-font-size: 20px;
- 
-font-weight: 600;
- 
+
+.resuem-item-institute {
+    color: #757575;
+
+    font-size: 20px;
+
+    font-weight: 600;
+
 }
-.resume-item-describetion{
-    color:  #757575;
-font-size: 16px;
-font-weight: 400;
+
+.resume-item-describetion {
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
 }
-.button{
+
+.button {
     border-radius: 5px;
-background: #FD6E0A;
-width: 200px;
-height: 64px;
-flex-shrink: 0;
-color:  #FFF;
-text-align: center;
- 
-font-size: 20px;
- 
- 
+    background: #FD6E0A;
+    width: 200px;
+    height: 64px;
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: center;
+
+    font-size: 20px;
+
+
 }
-.resume-button{
+
+.resume-button {
     text-align: center;
     margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+/* footer styles  */
+footer {
+    display: flex;
+    background: #FFF8F3;
+    padding: 130px 200px;
+
+}
+.footer-colum{
+    margin-left: 140px;
+}
+.section-describetion{
+    color:  #474747;
+ 
+font-size: 16px;
+ 
+font-weight: 400;
+ 
+}
+
+.section-item {
+    color: #181818;
+    font-size: 35px;
+    font-weight: 700;
+    display: block;
+    margin-bottom: 28px;
+}
+
+.input-item {}
+
+.inputt {
+    display: block;
+    margin-bottom: 24px;
+    width: 461px;
+    height: 64px;
+    flex-shrink: 0;
+}
+.btn-primary{
+    display: block;
+    border-top: 24px;
 }
